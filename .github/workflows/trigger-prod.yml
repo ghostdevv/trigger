@@ -1,4 +1,4 @@
-name: Deploy to Trigger.dev (prod)
+name: Deploy to trigger (prod)
 
 on:
     push:

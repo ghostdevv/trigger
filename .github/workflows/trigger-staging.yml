@@ -1,4 +1,4 @@
-name: Deploy to Trigger.dev (staging)
+name: Deploy to trigger (staging)
 
 on:
     push:
