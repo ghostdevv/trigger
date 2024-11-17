@@ -1,10 +1,9 @@
-name: Deploy to trigger (staging)
+name: Deploy to trigger
 
 on:
     push:
         branches:
-            - '**'
-            - '!main'
+            - main
         paths:
             - 'trigger/**'
 
@@ -44,4 +43,4 @@ jobs:
               env:
                   TRIGGER_ACCESS_TOKEN: ${{ secrets.TRIGGER_ACCESS_TOKEN }}
                   TRIGGER_API_URL: https://trigger.willow.sh
-              run: pnpm trigger deploy --self-hosted --push --env staging
+              run: pnpm trigger deploy --self-hosted --push
