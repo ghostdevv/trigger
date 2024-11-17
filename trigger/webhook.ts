@@ -1,4 +1,4 @@
-import { logger, task, wait } from '@trigger.dev/sdk/v3';
+import { logger, task } from '@trigger.dev/sdk/v3';
 
 interface Payload {
 	message: string;
@@ -19,9 +19,6 @@ export const sendWebhook = task({
 				message: payload.message,
 			}),
 		});
-
-		logger.debug('sleeping for two seconds');
-		await wait.for({ seconds: 2 });
 
 		logger.log('Sent!');
 	},
