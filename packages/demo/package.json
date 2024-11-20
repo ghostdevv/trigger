@@ -3,7 +3,8 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"demo:wait": "tsx src/wait.ts"
+		"demo:wait": "tsx src/wait.ts",
+		"demo:handle": "tsx src/handle.ts"
 	},
 	"devDependencies": {
 		"dotenv": "^16.4.5",
