@@ -16,10 +16,7 @@ export const sendWebhook = schedules.task({
 		const response = await fetch('https://cf.willow.sh', {});
 		const result: Result = await response.json();
 
-		logger.log(
-			`You got a ${result.result}!`,
-			result as Record<string, any>,
-		);
+		logger.info(`You got a ${result.result}!`);
 
 		return result;
 	},
