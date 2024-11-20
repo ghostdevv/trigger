@@ -1,0 +1,16 @@
+{
+	"name": "trigger-tasks",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "trigger dev"
+	},
+	"devDependencies": {
+		"@trigger.dev/build": "^3.2.0",
+		"typescript": "^5.6.3"
+	},
+	"dependencies": {
+		"@trigger.dev/sdk": "^3.2.0",
+		"trigger.dev": "^3.2.0"
+	}
+}

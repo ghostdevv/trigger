@@ -1,12 +1,6 @@
 {
+	"name": "root",
 	"scripts": {
 		"trigger:dev": "trigger dev"
-	},
-	"dependencies": {
-		"@trigger.dev/sdk": "^3.2.0",
-		"trigger.dev": "^3.2.0"
-	},
-	"devDependencies": {
-		"@trigger.dev/build": "^3.2.0"
 	}
 }
