@@ -21,5 +21,3 @@ const coinFlip = schedules.task({
 		return result;
 	},
 });
-
-export type CoinFlipTask = typeof coinFlip;
