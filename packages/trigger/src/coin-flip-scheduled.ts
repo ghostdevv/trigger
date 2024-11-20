@@ -9,7 +9,7 @@ interface Result {
 	sequence: Flip[];
 }
 
-export const coinFlip = schedules.task({
+const coinFlip = schedules.task({
 	id: 'coin-flip',
 	cron: '*/20 * * * *',
 	run: async (payload) => {
@@ -21,3 +21,5 @@ export const coinFlip = schedules.task({
 		return result;
 	},
 });
+
+export type CoinFlipTask = typeof coinFlip;
