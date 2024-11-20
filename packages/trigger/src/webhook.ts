@@ -4,7 +4,7 @@ interface Payload {
 	message: string;
 }
 
-const sendWebhook = task({
+export const sendWebhook = task({
 	id: 'send-webhook',
 	run: async (payload: Payload) => {
 		logger.debug('payload', payload as Record<string, any>);
