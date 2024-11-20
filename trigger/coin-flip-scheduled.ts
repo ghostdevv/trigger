@@ -20,5 +20,7 @@ export const sendWebhook = schedules.task({
 			`You got a ${result.result}!`,
 			result as Record<string, any>,
 		);
+
+		return result;
 	},
 });
