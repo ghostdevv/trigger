@@ -9,7 +9,7 @@ interface Result {
 	sequence: Flip[];
 }
 
-export const sendWebhook = schedules.task({
+export const coinFlip = schedules.task({
 	id: 'coin-flip',
 	cron: '*/20 * * * *',
 	run: async (payload) => {
