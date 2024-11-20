@@ -6,21 +6,20 @@ settings:
 
 importers:
 
-  .:
+  .: {}
+
+  packages/demo:
     dependencies:
       '@trigger.dev/sdk':
         specifier: ^3.2.0
         version: 3.2.0
-      trigger.dev:
-        specifier: ^3.2.0
-        version: 3.2.0(typescript@5.6.3)
     devDependencies:
-      '@trigger.dev/build':
-        specifier: ^3.2.0
-        version: 3.2.0(typescript@5.6.3)
-
-  packages/demo:
-    devDependencies:
+      dotenv:
+        specifier: ^16.4.5
+        version: 16.4.5
+      trigger-tasks:
+        specifier: workspace:^
+        version: link:../trigger
       tsx:
         specifier: ^4.19.2
         version: 4.19.2
