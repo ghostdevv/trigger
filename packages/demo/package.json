@@ -13,6 +13,6 @@
 		"typescript": "^5.7.3"
 	},
 	"dependencies": {
-		"@trigger.dev/sdk": "^3.3.12"
+		"@trigger.dev/sdk": "=3.3.11"
 	}
 }
