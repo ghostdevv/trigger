@@ -7,12 +7,12 @@
 		"demo:handle": "tsx src/handle.ts"
 	},
 	"devDependencies": {
-		"dotenv": "^16.4.5",
+		"dotenv": "^16.4.7",
 		"trigger-tasks": "workspace:^",
 		"tsx": "^4.19.2",
-		"typescript": "^5.6.3"
+		"typescript": "^5.7.3"
 	},
 	"dependencies": {
-		"@trigger.dev/sdk": "^3.2.0"
+		"@trigger.dev/sdk": "^3.3.12"
 	}
 }
