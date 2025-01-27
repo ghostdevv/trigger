@@ -4,6 +4,7 @@ export default defineConfig({
 	project: 'proj_ukyqnkjvypwpganmtxpn',
 	runtime: 'node',
 	logLevel: 'log',
+	maxDuration: 10,
 	retries: {
 		enabledInDev: true,
 		default: {
